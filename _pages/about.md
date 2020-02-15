@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Pan Li's website"
+title: "Pan Li"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.htmlrave
 ---
 
-ABOUT ME
+About Me
 ======
 I’m a 3rd year PhD candidate in the Department of Technology, Operations and Statistics (TOPS) within the Lenoard N. Stern School of Business at the New York University. My research focuses on recommender systems, where I aim to improve the design of recommendation models as well as studying their impact on consumers. The algorithms that I developed have been deployed in several companies, including
 * Baidu (serving intelligent recruitment applications)
