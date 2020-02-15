@@ -5,8 +5,24 @@ excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
+  - /about.htmlrave
 ---
+
+ABOUT ME
+======
+I’m a 5th year PhD candidate in the Department of Decision, Operations & Information Technologies (DOIT) within the Robert H. Smith School of Business at the University of Maryland. I extensively use Python, Stata, R and MATLAB along with modern data/text mining tools, deep learning techniques and econometrics to address empirical questions on
+
+Tackling excessive screening on online sharing platforms such as Airbnb.
+Tackling “over-seeking” sensitive user information on mobile platforms such as Android.
+Enabling interactions between content providers and viewers on Smart TVs.
+Studying the economic impact of institutional forms such as Seed Accelerators.
+Research Focus: Platform Self Regulation, Information Privacy, Mechanism Designs, Asymmetric Information
+
+Methodology: Econometrics, ML (Deep Learning), Textual Analysis, Field Experiments
+
+My dissertation research investigates the impact of platform policy changes that reduce the imbalance between different sides of an online platform. My dissertation has gained immensely from my interactions with my committee which includes Prof. Siva Viswanathan (chair of the committee), Prof. Peng Huang, Prof. Rajshree Agarwal, Prof. Gordon Gao and Prof. Anna Alberini.
+
+You can find my CV Summary here and Full CV here
 
 Education
 ======
