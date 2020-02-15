@@ -10,25 +10,17 @@ redirect_from:
 
 ABOUT ME
 ======
-I’m a 5th year PhD candidate in the Department of Decision, Operations & Information Technologies (DOIT) within the Robert H. Smith School of Business at the University of Maryland. I extensively use Python, Stata, R and MATLAB along with modern data/text mining tools, deep learning techniques and econometrics to address empirical questions on
+I’m a 3rd year PhD candidate in the Department of Technology, Operations and Statistics (TOPS) within the Lenoard N. Stern School of Business at the New York University. My research focuses on recommender systems, where I aim to improve the design of recommendation models as well as studying their impact on consumers. The algorithms that I developed have been deployed in several companies, including
+* Baidu (serving for intelligent recruitment)
+* Alibaba (serving for short video recommendation)
 
-Tackling excessive screening on online sharing platforms such as Airbnb.
-Tackling “over-seeking” sensitive user information on mobile platforms such as Android.
-Enabling interactions between content providers and viewers on Smart TVs.
-Studying the economic impact of institutional forms such as Seed Accelerators.
-Research Focus: Platform Self Regulation, Information Privacy, Mechanism Designs, Asymmetric Information
-
-Methodology: Econometrics, ML (Deep Learning), Textual Analysis, Field Experiments
-
-My dissertation research investigates the impact of platform policy changes that reduce the imbalance between different sides of an online platform. My dissertation has gained immensely from my interactions with my committee which includes Prof. Siva Viswanathan (chair of the committee), Prof. Peng Huang, Prof. Rajshree Agarwal, Prof. Gordon Gao and Prof. Anna Alberini.
-
-You can find my CV Summary here and Full CV here
+Methodology: Deep Learning, Machine Learning, Econometrics, Online A/B Test, Causal Inference
+You can find my CV here.
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mathematics and Computer Science (Minor), University of Science and Technology of China, 2017
+* Ph.D in Information System, New York University, Stern School of Business, 2022 (expected)
 
 Work experience
 ======
@@ -41,34 +33,9 @@ Work experience
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
