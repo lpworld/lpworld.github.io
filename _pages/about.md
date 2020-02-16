@@ -30,22 +30,22 @@ Publications
   * Proceedings of the 13th International Conference on Web Search and Data Mining (WSDM 2020)
   * Acceptance Rate: 46/615=7.5% (Oral Presentation)
 
-* [2] Hybrid Utility Function for Unexpected Recommendations [[Paper]](http://lpworld.github.io/files/wsdmdc.pdf)
+* [2] Hybrid Utility Function for Unexpected Recommendations [[Paper]](http://lpworld.github.io/files/wsdmdc.pdf) [[Poster]](http://lpworld.github.io/files/wsdmdc_poster.pdf)
   * **Pan Li**
   * Proceedings of the 13th International Conference on Web Search and Data Mining (WSDM 2020)
   * Doctoral Consortium
 
-* [3] Towards Controllable and Personalized Review Generation [[Paper]](http://lpworld.github.io/files/emnlp19.pdf)
+* [3] Towards Controllable and Personalized Review Generation [[Paper]](http://lpworld.github.io/files/emnlp19.pdf) [[Poster]](http://lpworld.github.io/files/emnlp19_poster.pdf)
   * **Pan Li**, Alexander Tuzhilin
   * Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019)
   * Acceptance Rate: 684/2877=23.8% (Long Paper)
 
-* [4] Latent Multi-Criteria Ratings for Recommendations [[Paper]](http://lpworld.github.io/files/recsys19.pdf)
+* [4] Latent Multi-Criteria Ratings for Recommendations [[Paper]](http://lpworld.github.io/files/recsys19.pdf) [[Poster]](http://lpworld.github.io/files/recsys19_poster.pdf)
   * **Pan Li**, Alexander Tuzhilin
   * Proceedings of the 13th ACM Conference on Recommender Systems (RecSys 2019)
   * Acceptance Rate: 40/165=24.2% (Short Paper)
   
-* [5] Latent Modeling of Unexpectedness for Recommendations [[Paper]](http://lpworld.github.io/files/recsyslbr.pdf)
+* [5] Latent Modeling of Unexpectedness for Recommendations [[Paper]](http://lpworld.github.io/files/recsyslbr.pdf) [[Poster]](http://lpworld.github.io/files/recsyslbr_poster.pdf)
   * **Pan Li**, Alexander Tuzhilin
   * Proceedings of the 13th ACM Conference on Recommender Systems (RecSys 2019)
   * Acceptance Rate: 13/42=31.0\% (Late-Breaking Result Track)
