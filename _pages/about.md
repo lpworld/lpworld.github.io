@@ -16,7 +16,7 @@ I’m a 3rd year PhD candidate in the Department of Technology, Operations and S
 
 Methodology: Deep Learning, Machine Learning, Econometrics, Online A/B Test, Causal Inference
 
-You can find my CV [here](http://lpworld.github.io/files/CV.pdf) here.
+You can find my CV [here](http://lpworld.github.io/files/CV.pdf).
 
 Education
 ======
