@@ -25,7 +25,7 @@ Education
 
 Publications
 ======
-* [1] DDTCDR: Deep Dual Transfer Cross Domain Recommendation [[Paper]](http://lpworld.github.io/files/wsdm20.pdf)
+* [1] DDTCDR: Deep Dual Transfer Cross Domain Recommendation [[Paper]](http://lpworld.github.io/files/wsdm20.pdf) [[Code]](https://github.com/lpworld/DDTCDR) [[Slide]](http://lpworld.github.io/files/wsdm20_slide.pdf) [[Poster]](http://lpworld.github.io/files/wsdm20_poster.pdf)
   * **Pan Li**, Alexander Tuzhilin
   * Proceedings of the 13th International Conference on Web Search and Data Mining (WSDM 2020)
   * Acceptance Rate: 46/615=7.5% (Oral Presentation)
