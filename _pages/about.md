@@ -40,7 +40,7 @@ Publications
   * Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019)
   * Acceptance Rate: 684/2877=23.8% (Long Paper)
 
-* [4] Latent Multi-Criteria Ratings for Recommendations [[Paper]](http://lpworld.github.io/files/recsys19.pdf) [[Poster]](http://lpworld.github.io/files/recsys19_poster.pdf)
+* [4] Latent Multi-Criteria Ratings for Recommendations [[Paper]](http://lpworld.github.io/files/recsys19.pdf) [[Code]](https://github.com/lpworld/LatentMC) [[Poster]](http://lpworld.github.io/files/recsys19_poster.pdf)
   * **Pan Li**, Alexander Tuzhilin
   * Proceedings of the 13th ACM Conference on Recommender Systems (RecSys 2019)
   * Acceptance Rate: 40/165=24.2% (Short Paper)
