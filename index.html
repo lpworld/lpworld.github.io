@@ -11,53 +11,60 @@
   <meta property="og:url" content="https://pan-li.netlify.app/">
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
   <style>
     :root {
-      --text: #202124;
+      --text: #000000;
       --muted: #5f6368;
-      --link: #1a0dab;
+      --accent: #990000;
+      --header-bg: #212121;
       --rule: #dadce0;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+      font-family: Georgia, Arial, serif;
       color: var(--text);
       background: #fff;
       line-height: 1.65;
-      font-size: 17px;
+      font-size: 18px;
     }
-    a { color: var(--link); text-decoration: none; }
+    a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     /* Top navigation bar */
     header {
-      border-bottom: 1px solid var(--rule);
-      background: #fff;
+      background: var(--header-bg);
       position: sticky;
       top: 0;
     }
     .nav-inner {
       max-width: 900px;
       margin: 0 auto;
-      padding: 14px 24px;
+      padding: 18px 24px;
       display: flex;
       align-items: baseline;
       justify-content: space-between;
     }
     .site-name {
-      font-size: 22px;
-      font-weight: 500;
-      color: var(--text);
+      font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      color: #fff;
     }
     nav a {
-      color: var(--muted);
+      font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+      color: #fff;
       margin-left: 28px;
       font-size: 15px;
+      font-weight: 300;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 1px;
     }
-    nav a:hover { color: var(--text); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
 
     /* Main column */
     main {
@@ -71,8 +78,9 @@
       margin: 0 0 8px;
     }
     h2 {
-      font-size: 26px;
-      font-weight: 400;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
       margin: 48px 0 4px;
     }
     .divider {
