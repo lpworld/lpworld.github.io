@@ -112,6 +112,17 @@
 
     ul { padding-left: 22px; margin: 0; }
     li { margin-bottom: 6px; }
+    .stream {
+      display: flex;
+      gap: 28px;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+    .stream svg { flex-shrink: 0; }
+    .stream-body { flex: 1; min-width: 240px; }
+    .stream-title { font-weight: 700; margin: 0 0 2px; }
+    .stream-body p { margin: 0 0 4px; }
+    .stream-body .tags { font-size: 16px; }
     .edu-inst { color: var(--muted); }
 
     footer {
@@ -191,13 +202,108 @@
     </div>
   </div>
 
-  <h2>Interests</h2>
+  <h2>Research</h2>
   <hr class="divider">
-  <ul>
-    <li>Personalization</li>
-    <li>Deep Learning</li>
-    <li>Consumer Modeling</li>
-  </ul>
+
+  <div class="stream">
+    <svg width="150" height="112" viewBox="0 0 160 120" role="img" aria-label="Diagram of predictions and interpretations improving each other">
+      <line x1="22" y1="30" x2="52" y2="45" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="22" y1="60" x2="52" y2="45" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="22" y1="90" x2="52" y2="45" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="22" y1="30" x2="52" y2="75" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="22" y1="60" x2="52" y2="75" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="22" y1="90" x2="52" y2="75" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="52" y1="45" x2="80" y2="60" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="52" y1="75" x2="80" y2="60" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="6" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="22" cy="60" r="6" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="22" cy="90" r="6" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="52" cy="45" r="6" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="52" cy="75" r="6" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="80" cy="60" r="7" fill="#990000"/>
+      <rect x="112" y="32" width="36" height="56" rx="5" fill="none" stroke="#5f6368" stroke-width="2"/>
+      <line x1="119" y1="46" x2="141" y2="46" stroke="#5f6368" stroke-width="2"/>
+      <line x1="119" y1="58" x2="141" y2="58" stroke="#990000" stroke-width="2"/>
+      <line x1="119" y1="70" x2="141" y2="70" stroke="#5f6368" stroke-width="2"/>
+      <path d="M 88 42 Q 100 26 110 34" fill="none" stroke="#990000" stroke-width="2"/>
+      <polygon points="110,34 102,32 106,40" fill="#990000"/>
+      <path d="M 112 90 Q 100 104 90 92" fill="none" stroke="#990000" stroke-width="2"/>
+      <polygon points="90,92 98,94 95,86" fill="#990000"/>
+    </svg>
+    <div class="stream-body">
+      <p class="stream-title">Interpretable Machine Learning Models</p>
+      <p>Aligning interpretations with predictions so explanations become reliable and improve model performance at the same time.</p>
+      <p class="tags"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985197" target="_blank" rel="noopener">ISR, under review</a> &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5099067" target="_blank" rel="noopener">MS, under review</a> &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7076720" target="_blank" rel="noopener">MISQ, under review</a></p>
+    </div>
+  </div>
+
+  <div class="stream">
+    <svg width="150" height="112" viewBox="0 0 160 120" role="img" aria-label="Diagram of a consumer exploring familiar and unexpected items">
+      <circle cx="28" cy="62" r="9" fill="#212121"/>
+      <line x1="38" y1="56" x2="66" y2="36" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="39" y1="62" x2="80" y2="60" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="38" y1="68" x2="66" y2="88" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="72" cy="32" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="86" cy="60" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="72" cy="92" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="106" cy="44" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="112" cy="78" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <path d="M 36 54 Q 80 6 134 24" fill="none" stroke="#990000" stroke-width="2" stroke-dasharray="5 4"/>
+      <polygon points="136,25 126,20 128,30" fill="#990000"/>
+      <circle cx="140" cy="27" r="7" fill="#990000"/>
+    </svg>
+    <div class="stream-body">
+      <p class="stream-title">Consumer Preference Exploration in Recommender Systems</p>
+      <p>Modeling each consumer&rsquo;s appetite for variety, unexpectedness, and curiosity, so recommenders can explore preferences without sacrificing relevance.</p>
+      <p class="tags"><a href="https://doi.org/10.1287/isre.2021.0053" target="_blank" rel="noopener">ISR 2024</a> &middot; <a href="https://doi.org/10.1145/3383313.3412238" target="_blank" rel="noopener">RecSys 2020</a> &middot; <a href="https://doi.org/10.1145/3404855" target="_blank" rel="noopener">TIST 2020</a></p>
+    </div>
+  </div>
+
+  <div class="stream">
+    <svg width="150" height="112" viewBox="0 0 160 120" role="img" aria-label="Diagram of preferences transferring between two product domains">
+      <rect x="12" y="28" width="52" height="64" rx="7" fill="none" stroke="#5f6368" stroke-width="2"/>
+      <circle cx="30" cy="48" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="48" cy="48" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="30" cy="72" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="48" cy="72" r="5" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <rect x="96" y="28" width="52" height="64" rx="7" fill="none" stroke="#5f6368" stroke-width="2"/>
+      <rect x="108" y="42" width="10" height="10" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <rect x="126" y="42" width="10" height="10" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <rect x="108" y="66" width="10" height="10" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <rect x="126" y="66" width="10" height="10" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <line x1="68" y1="48" x2="90" y2="48" stroke="#990000" stroke-width="2"/>
+      <polygon points="93,48 84,43 84,53" fill="#990000"/>
+      <line x1="92" y1="74" x2="70" y2="74" stroke="#990000" stroke-width="2"/>
+      <polygon points="67,74 76,69 76,79" fill="#990000"/>
+    </svg>
+    <div class="stream-body">
+      <p class="stream-title">Cross-Domain Recommender Systems</p>
+      <p>Transferring consumer preferences across product domains in both directions to improve recommendations in every domain at once.</p>
+      <p class="tags"><a href="https://doi.org/10.1109/TKDE.2021.3074395" target="_blank" rel="noopener">TKDE 2023</a> &middot; <a href="https://doi.org/10.1145/3548776" target="_blank" rel="noopener">TIST 2022</a> &middot; <a href="https://doi.org/10.1145/3578710" target="_blank" rel="noopener">TMIS 2023</a></p>
+    </div>
+  </div>
+
+  <div class="stream">
+    <svg width="150" height="112" viewBox="0 0 160 120" role="img" aria-label="Plot of a Pareto frontier across two recommendation objectives">
+      <line x1="24" y1="12" x2="24" y2="100" stroke="#5f6368" stroke-width="2"/>
+      <line x1="24" y1="100" x2="148" y2="100" stroke="#5f6368" stroke-width="2"/>
+      <polygon points="24,8 20,16 28,16" fill="#5f6368"/>
+      <polygon points="152,100 144,96 144,104" fill="#5f6368"/>
+      <path d="M 34 24 Q 46 82 140 92" fill="none" stroke="#990000" stroke-width="2"/>
+      <circle cx="60" cy="88" r="4" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="90" cy="94" r="4" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="36" cy="34" r="4" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="118" cy="90" r="4" fill="#dadce0" stroke="#5f6368" stroke-width="1.5"/>
+      <circle cx="56" cy="66" r="7" fill="#990000"/>
+    </svg>
+    <div class="stream-body">
+      <p class="stream-title">Multi-Objective Recommender Systems</p>
+      <p>Balancing multiple recommendation objectives and multiple stakeholders to reach the best performance trade-off for the whole platform.</p>
+      <p class="tags"><a href="https://misq.umn.edu/misq/article-abstract/50/3/1087/3764/Deep-Pareto-Reinforcement-Learning-for-Multi?redirectedFrom=fulltext" target="_blank" rel="noopener">MISQ 2026</a> &middot; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5410302" target="_blank" rel="noopener">MS, under review</a></p>
+    </div>
+  </div>
+
+  <p>See the full list of publications on the <a href="/research/">Research</a> page.</p>
 
 </main>
 
